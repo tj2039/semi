@@ -1,0 +1,53 @@
+[Oracle] Express Edition 18c HR 스키마(계정) 생성&설치
+
+Oracle 18c 설치 후 HR 샘플 스키마를 UNLOCK하며 패스워드를 부여할 경우 
+아래와 같이 계정이 존재하지 않아 에러가 발생한다
+
+SQL PLUS 에서 아래 명령어를 사용하여 HR 스키마를 설치해야 하기 때문에, 
+아래 명령어를 따라서 타이핑한다
+
+SQL> ALTER SESSION SET "_ORACLE_SCRIPT"=true;
+
+SQL> @?/demo/schema/human_resources/hr_main.sql
+
+specify password for HR as parameter 1:
+
+Enter value for 1: hr
+
+ 
+
+specify default tablespace for HR as parameter 2:
+
+Enter value for 2: users
+
+ 
+
+specify temporary tablespace for HR as parameter 3:
+
+Enter value for 3: temp
+
+ 
+
+specify log path as parameter 4:
+
+Enter value for 4: $ORACLE_HOME/demo/schema/log/
+
+ 
+
+위의 과정이 모두 종료되었으면 아래 명령어로 UNLOCK 및 비밀번호 설정 후 
+사용하도록 한다
+
+ALTER USER HR ACCOUNT UNLOCK IDENTIFIED BY 사용할비밀번호; 
+ALTER USER HR ACCOUNT UNLOCK IDENTIFIED BY hr123;
+-------------
+※ tnsnames.ora 경로
+
+C:\app\Administrator\product\18.0.0\dbhomeXE\network\admin
+
+-------------
+※ ojdbc8.jar 경로
+
+C:\app\Administrator\product\18.0.0\dbhomeXE\jdbc\lib\ojdbc8.jar
+
+
+

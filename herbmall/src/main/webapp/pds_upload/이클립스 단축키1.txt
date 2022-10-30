@@ -1,0 +1,75 @@
+[이클립스 단축키]
+
+Ctrl + spacebar : 자동완성
+
+F11 : 디버그
+
+CTRL + F11:실행
+
+CTRL + I : 소스들의 "자동 들여쓰기" 
+작성 된 소스들을 전체 선택 후, 단축키를 입력 해 주면, 코딩 중 놓친 들여쓰기를 
+친절하게 자동으로 처리
+
+CTRL + SHIFT + F : 자동 코드 정리
+
+Ctrl + M : editor 최대화
+
+Ctrl + Shift + M : add import
+
+Ctrl + Shift + O : add import
+
+Ctrl + / : 주석 처리 - 한 라인/블록에 대해 주석 처리 (추가 및 제거)
+
+Ctrl + Shift + / : 블록 주석(/* */)
+
+Ctrl + Shift + \ : 블록 주석 제거
+
+F3 : 메서드 정의로 이동,     
+
+Alt+← : 이전 위치로
+
+Alt+→ : 다음 위치로
+
+syso + (Ctrl + Spacebar) : System.out.println() 문장 삽입
+
+
+Alt + Up , Alt + Down : 해당 라인을 위 / 아래로 이동 시킨다.
+
+Ctrl + Alt + Down : 커서가 위치한 라인을 복사해 밑줄에 생성해 준다.
+
+Ctrl + Shift + F4 : 열려 있는 모든 창 닫기
+
+
+Ctrl + Shift +X : 대문자로 변환
+
+Ctrl + Shift + Y : 소문자로 변환
+
+ALT+SHIFT+R : 텍스트를 일괄 변경
+변수 하나에 클릭 후 커서를 둔 상태로 단축키를 눌러주면 똑같은 변수 이름들에 
+테두리가 쳐지며 하나의 변경 만으로 일괄적으로 수정이 됨
+
+
+
+새로 만들기 Ctrl+N
+
+Quick Access Ctrl+3
+
+빨리 수정 Ctrl+1
+
+한 줄 삭제 Ctrl+D
+
+파일 아웃라인 Ctrl+O
+
+상속 구조 Ctrl+T
+
+선택 문자 찾기 Ctrl+K
+
+행번호로 이동 Ctrl+L
+
+파일명으로 찾기(Open Resource) Ctrl+Shift+R
+
+Open Type : Ctrl+Shift+T
+
+프로젝트 텍스트 검색 Ctrl+H
+
+단축키 목록 Ctrl+Shift+L
