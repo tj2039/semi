@@ -8,7 +8,7 @@ public class MemberVO {
 	private String name;     
 	private String pwd;        
 	private String email;      
-	private String hp;            
+	private String hp;         
 	private String zipcode;   
 	private String  address;   
 	private String  addressDetail;    
@@ -88,7 +88,4 @@ public class MemberVO {
 	public void setOutdate(Timestamp outdate) {
 		this.outdate = outdate;
 	}
-	
-	
-	
 }

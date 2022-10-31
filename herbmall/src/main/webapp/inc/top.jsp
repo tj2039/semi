@@ -9,7 +9,12 @@
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/clear.css" />
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/layout.css" />
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/mystyle.css"/>
-
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+<style type="text/css">
+body{
+font-family: 'Nanum Brush Script', cursive;
+}
+</style>
 </head>
 
 <body>	

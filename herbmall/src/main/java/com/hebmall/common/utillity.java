@@ -8,10 +8,10 @@ import com.herbmall.reboard.model.ReBoardVO;
 
 
 public class utillity {
+	//자료실에서 사용할 상수
 	public static final String UPLOAD_DIR= "pds_upload";
 	public static final String TEST_DIR
 		= "C:\\lecture\\workspace_list\\jsp_ws\\herbmall\\src\\main\\webapp\\pds_upload";
-	
 	
 	public static String displayRe(int step) {
 		String result="";
